@@ -1,0 +1,8 @@
+S -> Subject Predicate [1.0]
+Subject -> Pronoun [0.5] | Proper-Noun [0.5]
+Pronoun -> "Jag" [0.2] | "Du" [0.2] | "Han" [0.2] | "Hon" [0.2] | "Den" [0.2]
+Proper-Noun -> "Stockholm" [0.2] | "Max" [0.2] | "Alaska" [0.2] | "Los Angeles" [0.2] | "America" [0.2] 
+Predicate -> Verb [0.25] | Verb Subject [0.25] | Verb Subject PP [0.25] | Verb PP [0.25] 
+Verb -> "gör" [0.2] | "vill" [0.2] | "har" [0.2] | "ska" [0.2] | "går" [0.2]
+PP -> Preposition Subject [1.0]
+Preposition -> "om" [0.125] | "ovanför" [0.125] | "tvärsöver" [0.125] | "efter" [0.125] | "mot" [0.125] | "bland" [0.125] | "som" [0.125] | "före" [0.125]

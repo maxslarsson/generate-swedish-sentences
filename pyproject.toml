@@ -1,15 +1,18 @@
 [tool.poetry]
-name = "pcfg"
-version = "0.1.0"
+name = "swedish-pcfg"
+version = "1.0.0"
 description = "🇸🇪 Generating Swedish sentences using a probabilistic context-free grammar"
 authors = ["Max Larsson <maxslarsson@gmail.com>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.9"
-nltk = "^3.5"
+pcfg = "^0.1"
+importlib-metadata = "^3.3.0"
 
 [tool.poetry.dev-dependencies]
+black = "^20.8b1"
+mypy = "^0.790"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
